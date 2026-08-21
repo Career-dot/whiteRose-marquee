@@ -1111,6 +1111,21 @@ footer .social-icons {
   border: 0;
 }
 
+footer {
+  background: #2a0f18;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 64px 0 26px;
+  margin-top: 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  gap: 38px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
 .footer-logo {
   font-family: 'Playfair Display', serif;
   font-size: 21px;
@@ -1119,7 +1134,7 @@ footer .social-icons {
 }
 
 .footer-logo span {
-  color: #AD8A46;
+  color: #AD8A46;;
   font-style: italic;
 }
 
